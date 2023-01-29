@@ -1,0 +1,28 @@
+{
+  "name": "goal-tracker",
+  "version": "1.0.0",
+  "description": "Goal Tracker web app made using expressJs, ReactJs and Redux Toolkit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Backend/server.js",
+    "server": "nodemon Backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USKhokhar/goal-tracker.git"
+  },
+  "author": "USKhokhar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/USKhokhar/goal-tracker/issues"
+  },
+  "homepage": "https://github.com/USKhokhar/goal-tracker#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.8.4",
+    "nodemon": "^2.0.20"
+  }
+}
